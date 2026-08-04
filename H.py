@@ -30,7 +30,7 @@ os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True, mode=0o755)
 os.makedirs(IROTECH_DIR, exist_ok=True, mode=0o755)
 
 # Environment variables with YOUR TOKEN (Railway सेटिंग्स में सेट करें)
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', "8899795885:AAECQ2xOoixCkx9j7w2MEkld2vvZA2iZyfQ")
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', "8832438058:AAFv3anD3SbkMMSRzZSa9d-Aua-vha3Cqdk")
 OWNER_ID = int(os.environ.get('OWNER_ID',8211620138))
 ADMIN_ID = int(os.environ.get('ADMIN_ID',8550636763))
 YOUR_USERNAME = os.environ.get('YOUR_USERNAME', '@OWNER1865')
